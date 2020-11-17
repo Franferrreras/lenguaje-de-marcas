@@ -1,0 +1,25 @@
+th,td {
+    border: 1px solid black;
+    padding: 5px;
+}
+table {
+    border-collapse: collapse;
+
+}
+
+thead th::first-letter {
+    font-size: 2em;
+    color: black;
+}
+
+tbody td:first-child{
+    background-color: green;
+}
+
+tbody tr:nth-child(3) th{
+    background-color: yellow;
+}
+caption{
+    
+    color: green;
+}
