@@ -1,0 +1,24 @@
+td:nth-child(3) {
+    color: red;
+}
+
+input [type= "date"] {
+    inline-size: 50px;
+}
+
+datalist {
+    inline-size: 40px;
+}
+
+legend {
+    color: blue;
+}
+
+body {
+    border: 3px solid blue;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    margin-left: 30px;
+}

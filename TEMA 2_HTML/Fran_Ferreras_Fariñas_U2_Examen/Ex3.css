@@ -1,0 +1,17 @@
+table ,th,td{
+    border: 1.5px dashed red;
+    margin: 0px auto;
+}
+
+img {
+    width: 100px;
+    height: 80px;
+}
+
+tbody td {
+    text-align: center;
+}
+a {
+    color: rgb(121, 65, 225);
+}
+

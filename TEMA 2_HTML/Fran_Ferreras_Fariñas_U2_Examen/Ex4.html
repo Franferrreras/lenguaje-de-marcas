@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Ex4.css">
+</head>
+<body>
+    <form>
+        <h1>Reservation Request</h1>
+        <fieldset>
+            <legend><b>General Information</b></legend>
+            <table>
+                <tr>
+                    <td><label for="dte">Arrival date:</label></td>
+                    <td><input type="date" id="dte" ></td>
+                    <td>Arrival date is invalid</td>
+                </tr>
+                <tr>
+                    <td><label for="nights">Nights</label></td>
+                    <td><input type="text" id="nights" placeholder="three"></td>
+                    <td>Nights must be a number</td>
+                </tr>
+                <tr>
+                    <td><label for="adults">Adults</label></td>
+                    <td colspan="2">
+                        <input list="num" name="num">
+                        <datalist id="num">
+                            <option value="1" selected>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="child">Children</label></td>
+                    <td colspan="2">
+                        <input list="numchild" name="numchild">
+                        <datalist id="numchild">
+                            <option value="1" selected>0</option>
+                            <option value="2">1</option>
+                            <option value="3">2</option>
+                            <option value="4">3</option>
+                        </datalist>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend><b>Preferences</b></legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Room type</td>
+                        <td>
+                             <input type="radio" name="rtype" id="stand" value="standar">
+                            <label for="stand">Standar</label>
+                            <input type="radio" name="rtype" id="buss" value="bussines">
+                            <label for="buss">bussines</label>
+                            <input type="radio" name="rtype" id="suite" value="suite">
+                            <label for="suite">Suite</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Bed type:</td>
+                        <td>
+                            <input type="radio" name="btype" id="king">
+                            <label for="king">King</label>
+                            <input type="radio" name="btype" id="double">
+                            <label for="double">Double Double</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="smok" name="smok">
+                            <label for="smok">Smoking</label>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend><b>Contact Information</b></legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td><input type="text" id="name" required></td>
+                        <td>Name is required</td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" placeholder="graceyahoo.com"></td>
+                        <td>Email addres is invalid</td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Phone:</label></td>
+                        <td><input type="text" id="phone" placeholder="123-456-789"></td>
+                        <td>Phone number is invalid</td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset><br>
+        <input type="submit" value="Submit Reservation">
+        <input type="reset" value="Clear" inline-size="20px">
+    </form>
+</body>
+</html>
