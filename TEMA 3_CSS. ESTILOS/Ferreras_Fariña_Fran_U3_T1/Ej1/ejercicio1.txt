@@ -1,0 +1,35 @@
+Apartado e) Estudia analiza y comprende cada uno de los comportamientos de los elementos definidos en la hoja de estilos
+
+
+Como podemos observar la hoja de estilos tiene 9 selectores que son los siguientes:
+    
+    -body {background-color: tan} --> Este selectores, coge el coge el cuerpo de la página 
+    y le da el color defondo "tan". Esto lo sabemo porque background-color se refiereal color 
+    de fondo.
+
+    El body es donde va el contenido del documento html.
+
+    -h1 {color:maroon; font-size:20pt} --> h1 uno se refiere al encabezado de la página,
+    en este caso el selector indica que para h1 este tiene que tener el color "maroon" y uno
+    tamaño de fuente de 20pt(fot-size se refiere al tamaño de la letra del h1).
+
+    -hr {color:navy}--> "hr" sirve para un texto o parrafo de otro y dibuja una linea horizontal
+    como se observa en el navegador, pero la indicación que hace el selector es de tintarlo de color azul navi
+    almenos en mi caso, se muestra de color blanco que puede ser debido a mi navegador.
+
+    -p {font-size:12pt; margin-left: 15px}--> "p" se refiere a un parrafo, en este caso el selector
+    selecciona todo los parrafos y les dá un tamaño de letra de 12pt un margen lateral izquierdo de 15px.
+
+    -p.verse {color:maroon; margin-left: 60px}--> En este caso tenemos un selector de clase. En este caso está seleccionando
+    la clase "verse" que se encuentra detro del parrafo, indica que los parrafos con la calse verse tengan un color maroon y un márgen laterar i
+    de 60px.
+
+    -a:link     {color:green}--> En este caso el selector indica que el enlace tiene que ser de color greeb.
+    -a:visited  {color:yellow}-->El selector marca que cuando el enlace es visitado este se muestre de colora yellow.
+    -a:hover    {color:black}--> El selector indica que cuando el cursor pase por encima del enlace este se muestre de color negro.
+    -a:active   {color:blue}--> El selector indica que cuando el enlace es clicado este se muestre de color blue.
+
+    El elemento "a" en html crea un enlace a otra páginas, archivos o ubicaciones dentro de lamisma página.
+    
+
+

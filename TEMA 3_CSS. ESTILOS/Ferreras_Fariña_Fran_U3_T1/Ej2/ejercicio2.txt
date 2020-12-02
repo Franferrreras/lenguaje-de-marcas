@@ -1,0 +1,12 @@
+En la versión inglesa (poema.html), ¿por qué los últimos 5 párrafos se muestran de forma diferente que los 2 primeros?. Contestar en el fichero ejercicio2.txt que debes dejar en esa carpeta.
+
+Los dos primeros primeros párrafos se muestran de forma diferente que los ultimos cinco párrafos ya que estos tienen puesto una clase,
+este caso clase la clase es "verse" y se muestra así en el html <p class="verse"></p>.
+
+Como vimos en la actividad anterior, atraves del selector p.verse {color:maroon; margin-left: 60px}, los parrafos con la clase=verse tengan un color "maroon" y un margen lateral izquierdo
+de 60px.
+
+a.- Edita el fichero poema.html para que los últimos 5 párrafos tengan el mismo aspecto que los 2 primeros.
+
+
+Para ello a cada parrafo hay que ponerle <p style="color: maroon; margin-left: 60px;"></p>
