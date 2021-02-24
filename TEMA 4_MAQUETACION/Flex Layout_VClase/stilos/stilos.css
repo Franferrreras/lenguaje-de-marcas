@@ -88,9 +88,8 @@
 .imagen {
     width: 43%;
     height: 92%;
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
+    margin-top: 30px;
+    text-align: right;
     margin-left: 65px;
 }
 .imagen img{
@@ -102,8 +101,6 @@
     height: 92%;
     margin-top: 30px;
     margin-right: 90px;
-    display: flex;
-    justify-content: center;
 }
 
 .texto div {
