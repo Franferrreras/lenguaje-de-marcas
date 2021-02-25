@@ -89,8 +89,7 @@
     width: 43%;
     height: 92%;
     margin-top: 50px;
-    display: flex;
-    justify-content: center;
+    text-align: end;
     margin-left: 65px;
 }
 .imagen img{
