@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.container {
+    background-color: rgb(48, 47, 47);
+    width: 85%;
+    margin: 0px auto;
+}
+
+h1,
+h3,
+h4,
+p {
+  margin: 0px;
+  padding: 0.5em;
+}
+
+
+
+.menu div {
+    padding: 0.5em;
+    direction: none;
+}
+
+img {
+    width: 30%;
+}
+
+@media screen and (min-width: 576px) {
+
+    .menu {
+        display: flex;
+    }
+    .menu div {
+        display: inline-block;
+    }
+    .icon {
+        display: none;
+    }
+
+}

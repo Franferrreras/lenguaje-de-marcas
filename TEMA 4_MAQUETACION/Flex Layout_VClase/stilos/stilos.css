@@ -88,8 +88,13 @@
 .imagen {
     width: 43%;
     height: 92%;
+<<<<<<< HEAD
     margin-top: 50px;
     text-align: end;
+=======
+    margin-top: 30px;
+    text-align: right;
+>>>>>>> 1553eda6a89b500e744e92c20a8a5c2b6628f449
     margin-left: 65px;
 }
 .imagen img{
@@ -101,8 +106,6 @@
     height: 92%;
     margin-top: 30px;
     margin-right: 90px;
-    display: flex;
-    justify-content: center;
 }
 
 .texto div {
