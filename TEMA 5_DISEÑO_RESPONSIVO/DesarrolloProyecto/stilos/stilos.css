@@ -2,35 +2,120 @@
     box-sizing: border-box;
 }
 
-
-.container {
-    width: 90%;
-    margin: 0px auto;
+body {
+    background-repeat: repeat-x;
 }
 
+.container {
+    width: 100%;
+    margin: 0px auto;
+    font-family:Arial, Helvetica, sans-serif ;
+}
 
 header {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    background-color: rgba(34, 33, 33, 0.733);
+}
+.icon {
+    color:  rgb(255, 255, 255);
 }
 .item {
     padding: 0.5m;
     display: none;
+    color: white;
+    margin: 5px;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
 }
+
+nav{
+    margin-right: 20px;
+}
+
+main > :first-child {
+    background-color: rgba(34, 33, 33, 0.575);
+    color: white;   
+}
+
+main p {
+    margin-left: 5px;
+}
+
 
 main h1 {
     text-align: center;
 }
 
 
+
 img {
     width: 30%;
 }
 
-input{
+/* Parte de rellenar datos_________________________*/
+.campos {
+    background-color: white;
+    padding: 10px;
+    padding-top: 5px;
+    border-radius: 2px;
+    
+}
+.campos p, label {
+    color: rgb(88, 88, 88);
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+
+.fill {
     width: 100%;
-    padding: 5px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid rgb(231, 211, 98);
+    border-radius: 4px ;
+}
+
+input[type = checkbox] {
+    margin:5px;
+    margin-top: 10px;
+}
+
+input[type = submit] {
+    margin-top: 25px;
+    background-color: rgb(253, 33, 118);
+    border: 1px solid rgb(255, 45, 126);
+    color: white;
+    font-weight: bold;
+}
+
+span {
+    color:  rgb(253, 33, 118); 
+}
+
+/*////////////////////////////*/
+footer div {
+    padding: 10px;
+    margin-top: 70px;
+    background-color: rgba(236, 236, 236, 0.884);
+    color: rgb(92, 86, 86);
+}
+
+footer input {
+    width: 60%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 4px ;
+}
+
+footer input[type = submit] {
+    background-color:  rgb(253, 33, 118);
+    margin: 5px;
+
 }
 
 @media screen and (min-width: 576px) {

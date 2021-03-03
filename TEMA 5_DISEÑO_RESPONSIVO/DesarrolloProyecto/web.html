@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
-<body>
+<body background="img/fondo.jpg">
     <div class="container">
         <header>
             <div class="logo">
@@ -28,20 +28,30 @@
             <div>
                 <h1>Make up to $35/hr<br>Driving Your Car</h1>
             </div>
-            <div>
+            <div class="campos">
                 <h2>Apply Now</h2>
                 <p>Enter your info, and then download the Lyft app to create your drive profile</p>
-                <input type="text" id="fname" placeholder="First name" >
-                <input type="text" id="lname" placeholder="Last name">
-                <input type="email" placeholder="Email address">
-                <input type="text" placeholder="City">
-                <input type="text" placeholder="Phone number">
-                <input type="text" placeholder="Promo code (optional)"><br>
-                <input type="checkbox" id="agree">
-                <label for="agree">I agree to the Lyft Servis</label>
+                <input type="text" id="fname" placeholder="First name" class="fill" >
+                <input type="text" id="lname" placeholder="Last name" class="fill">
+                <input type="email" placeholder="Email address" class="fill">
+                <input type="text" placeholder="City" class="fill">
+                <input type="text" placeholder="Phone number" class="fill">
+                <input type="text" placeholder="Promo code (optional)" class="fill"><br>
+                <input type="checkbox" id="agree" >
+                <label for="agree">I agree to the<span> Lyft Servis</span></label>
+                <input type="submit" value="BECOME A DRIVER" class="fill">
+                <p>Already applied? <span>Check the sflashes of your aplication home</span></p>
             </div>
         </main>
-        <footer></footer>
+        <footer>
+            <div>
+                <h2>See How Much You Can Make</h2>
+                <p>How many hours doyou want oto drive this week?</p>
+                <input type="text" placeholder="Hours">
+                <input type="text" placeholder="City">
+                <input type="submit" value="CALCULATE">
+            </div>
+        </footer>
     </div>
     <script>
         $(function() {
