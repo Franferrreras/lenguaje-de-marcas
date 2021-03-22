@@ -1,0 +1,321 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    font-size: 3.5vw;
+}
+
+.container {
+    width: 100%;
+    margin: 0px auto;
+    font-family:Arial, Helvetica, sans-serif ;
+    background-image: url("../img/fondocopy_dif.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(34, 33, 33, 0.733);
+}
+.icon {
+    color:  rgb(255, 255, 255);
+}
+.item {
+    display: none;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+    transition-duration: 0.4s;
+}
+
+.menu div:hover {
+    background-color: ivory;
+    color: rgb(182, 182, 182);
+}
+
+nav{
+    margin-right: 20px;
+}
+/*---------------------------*/
+
+.make {
+    background-color: rgba(34, 33, 33, 0.575);
+    color: white;   
+}
+
+main {
+    width: 97%;
+}
+
+
+main p {
+    margin-left: 5px;
+}
+
+
+main h1 {
+    text-align: center;
+}
+
+
+
+img {
+    width: 30%;
+}
+
+/* Parte de rellenar datos_________________________*/
+.campos {
+    background-color: rgba(255, 255, 255, 0.945);
+    padding: 10px;
+    padding-top: 5px;
+    border-radius: 2px;
+    
+}
+.campos p, label {
+    color: rgb(88, 88, 88);
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+
+.fill {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 0px;
+    border: 1px solid rgb(231, 211, 98);
+    border-radius: 4px ;
+}
+
+input[type = checkbox] {
+    margin:5px;
+    margin-top: 10px;
+}
+
+input[type = submit] {
+    margin-top: 25px;
+    background-color: rgb(253, 33, 118);
+    border: 1px solid rgb(255, 45, 126);
+    color: white;
+    font-weight: bold;
+}
+
+span {
+    color:  rgb(253, 33, 118); 
+}
+
+/*////////////////////////////*/
+footer div {
+    padding: 10px;
+    margin-top: 70px;
+    background-color: rgba(236, 236, 236, 0.884);
+    color: rgb(92, 86, 86);
+    text-align: center;
+}
+
+footer input {
+    width: 70%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 4px ;
+}
+
+footer input[type = submit] {
+    background-color:  rgb(253, 33, 118);
+    margin: 5px;
+
+}
+.campos input[type = submit] {
+    transition-duration: 0.4s;
+}
+
+.campos input[type = submit]:hover {
+    background-color: rgb(211, 193, 199);
+    border-color: white;
+}
+
+footer input[type = submit] {
+    transition-duration: 0.4s;
+}
+
+footer input[type = submit]:hover {
+    background-color: rgb(165, 161, 162);
+    border-color: white;
+}
+
+@media screen and (min-width: 576px) {
+
+    html {
+        font-size: 1.5vw;
+    }
+    img {
+        width: 25%;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-image: url("../img/fondo_tablet.jpg");
+        background-size: 993px;
+
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .menu {
+        width: 80%;
+        text-align: center;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /*------------------------*/
+    main {
+        width: 45%;
+    }
+
+    .campos {
+        background-color: rgba(255, 255, 255, 0.897);
+    }
+
+    .fill {
+        margin: 3px;
+    }
+
+    footer {
+        width: 45%;
+        margin-top: 24px;
+    }
+
+    footer div {
+        margin-top: 19%;
+    }
+
+    .nav {
+        display: flex;
+    }
+    .item {
+        display: inline-block;
+    }
+    .icon {
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 992px) { 
+
+    html {
+        font-size: 1vw;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-image: url("../img/prueba33.jpg");
+        background-size: 2000px 950px;
+        background-color: rgba(168, 168, 168, 0.884);
+        margin: 0px auto;
+    }
+
+
+    .logo {
+        margin-left: 7%;
+    }
+    .menu {
+        margin-right: 6%;
+    }
+    .item {
+        margin-right: 15px;
+        font-size: 0.8em;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+   
+    main {
+        margin: 0px auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .make {
+        width: 30%;
+        margin-top: 16%;
+        background-color: transparent;
+        margin-left: 3%;
+    }
+
+    .campos{
+        width: 22%;
+        margin-top: 25px;
+        margin-right: 6%;
+        border-radius: 5px;
+    }
+
+    .campos p {
+        margin-left: 0px;
+    }
+    .campos input[type = submit], input[type = checkbox] {
+        cursor: pointer;
+    }
+    .fill {
+        margin: 5px;
+        margin-left: 0px;
+    }
+
+    .icon {
+        display: none;
+    } 
+    
+    footer {
+        width: 100%;
+        background-color: rgb(236, 236, 236);
+        margin-top: 45px;
+    }
+    footer div {
+        width: 40%;
+        margin-top: 0px;
+        margin-left: 10%;
+        padding: 0px;
+        text-align: start;
+    }
+    footer input {
+        width: 20%;
+        margin: 0px;
+    }
+    .city {
+        width: 40%
+    }
+    .calculate {
+        width: 30%;
+        cursor: pointer;
+    }
+
+    footer p {
+        margin-bottom: 10px;
+    }
+    
+
+    
+   
+}
