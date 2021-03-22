@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 3.5vw;
+}
+
+body {
+    background-repeat:no-repeat;
+}
+
+.container {
+    width: 100%;
+    margin: 0px auto;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(34, 33, 33, 0.733);
+}
+.icon {
+    color:  rgb(255, 255, 255);
+}
+.item {
+    padding: 0.5m;
+    display: none;
+    color: white;
+    margin: 5px;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+nav{
+    margin-right: 20px;
+}
+
+.make{
+    background-color: rgba(34, 33, 33, 0.575);
+    color: white;   
+}
+
+main p {
+    margin-left: 5px;
+}
+
+
+main h1 {
+    text-align: center;
+}
+
+
+
+img {
+    width: 30%;
+}
+
+/* Parte de rellenar datos_________________________*/
+.campos {
+    background-color: white;
+    padding: 10px;
+    padding-top: 5px;
+    border-radius: 2px;
+    
+}
+.campos p, label {
+    color: rgb(88, 88, 88);
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+
+.fill {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid rgb(231, 211, 98);
+    border-radius: 4px ;
+}
+
+input[type = checkbox] {
+    margin:5px;
+    margin-top: 10px;
+}
+
+input[type = submit] {
+    margin-top: 25px;
+    background-color: rgb(253, 33, 118);
+    border: 1px solid rgb(255, 45, 126);
+    color: white;
+    font-weight: bold;
+}
+
+span {
+    color:  rgb(253, 33, 118); 
+}
+
+/*////////////////////////////*/
+footer div {
+    text-align: center;
+    padding: 10px;
+    margin-top: 70px;
+    background-color: rgba(236, 236, 236, 0.884);
+    color: rgb(92, 86, 86);
+}
+
+footer input {
+    width: 70%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 4px ;
+}
+
+footer input[type = submit] {
+    background-color:  rgb(253, 33, 118);
+    margin: 5px;
+
+}
+
+@media screen and (min-width: 576px) {
+    body {
+        background-size: 992px 490px;
+        background-image: unset;
+    }
+
+    html {
+        font-size: 1.5vw;
+    }
+    
+    .container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-image: url("../img/fondo.jpg");
+        background-repeat: no-repeat;
+        background-size: 992px 490px;
+    }
+
+    header {
+        justify-content: space-around;
+        width: 100%;
+    }
+    .nav {
+        display: flex;
+    }
+    .item {
+        display: inline-block;
+    }
+
+
+    .icon {
+        display: none;
+    }
+
+
+    .menu {
+        width: 70%;
+        background-color: brown;
+        text-align: center;
+    }
+    .menu div {
+        padding: 5px;
+        border-radius: 3px;
+        transition-duration: 0.4s;
+    }
+
+    
+    main {
+        margin-top: 10px;
+        border-radius: 3px;
+        width: 45%;
+        background-color: rgba(255, 255, 255, 0.863);
+    }
+    .make {
+        color: black;
+        background-color: transparent;
+    }
+    .make h1 {
+        margin-bottom: 0px;
+    }
+    .campos {
+        background-color: transparent;
+    }
+
+    .fill {
+        margin: 3px;
+        font-size: 1em;
+    }
+
+    footer {
+        width: 45%;
+    }
+    footer div {
+        margin: 0px;
+        margin-bottom: 100px;
+        padding: 5px;
+    }
+
+    footer input {
+        font-size: 1em;
+    }
+
+}
