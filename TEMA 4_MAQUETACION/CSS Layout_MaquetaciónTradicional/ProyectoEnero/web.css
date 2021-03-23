@@ -1,0 +1,182 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+img {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 921px;
+    background: rgb(221,221,222);
+    background: linear-gradient(0deg, rgba(221,221,222,1) 9%, rgba(226,226,232,1) 12%, rgba(213,213,219,1) 13%, rgba(226,226,232,1) 13%, rgba(55,110,185,1) 13%, rgba(82,88,142,1) 73%, rgba(255,255,255,1) 73%);
+    position: relative;
+}
+
+.caja1 {
+    position: relative;
+    width: 100%;
+    height: 20%;
+    /*background-color: tomato;*/
+}
+
+.caja1 div {
+    display: inline-block;
+}
+.logo {
+    width: 25%;
+    height: 50%;
+    /*background-color: springgreen;*/
+    position: absolute;
+    left: 0px;
+    margin: 5px;
+    text-align: center;
+}
+
+.barra {
+    width: 60%;
+    height: 50%;
+    /*background-color: rgb(255, 217, 0);*/
+    position: relative;
+    left: 30%;
+    text-align: center;
+    margin: 5px;
+}
+nav {
+    width: 90%;
+    height: 40%;
+    /*background-color: turquoise;*/
+    margin: 25px auto;
+}
+.barra nav div {
+    align-items: center;
+    /*color: rgb(156, 156, 156);*/
+    font-size: 0.8em;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: center;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(184, 184, 184);
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+nav div:last-child {
+    color: white;
+    background-color: rgb(11, 182, 11);
+    border-radius: 7px;
+    padding-left: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition-duration: 0.4s;
+}
+
+nav div:hover {
+    background-color: rgb(241, 240, 240);
+}
+/*----------------------------------------------------*/
+.caja2 {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    /*background-color: turquoise;*/
+}
+
+.caja2 div {
+    display: inline-block;
+}
+
+/* Elementos de la caja 2*/
+.caja2_cont {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*background-color: tan;*/
+    margin: 0px auto;
+}
+.cajai {
+    position: relative;
+    width: 45%;
+    height: 100%;
+    /*background-color: silver;*/
+    left: 5%;
+}
+.cajai div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*background-color: yellow;*/
+    text-align: center;
+}
+
+.cajai div img {
+    max-width: 850px;
+}
+.cajatext {
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    /*background-color: springgreen;*/
+    left: 50%;
+}
+
+.cajatext div {
+    position: absolute;
+    width: 95%;
+    height: 50%;
+    margin-left: 20px ;
+    margin-top: 110px;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.button {
+    background: rgb(36,129,23);
+    background: linear-gradient(0deg, rgba(36,129,23,1) 39%, rgba(105,209,113,1) 74%);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 30px 95px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button2 {
+    background-color: rgba(0, 0, 0, 0);
+    border: solid rgb(139, 139, 139) 1px;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 50px 7px;
+    cursor: pointer;
+}
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+span {
+    font-weight: bold;
+}
+h1 {
+    margin: 0px;
+}
