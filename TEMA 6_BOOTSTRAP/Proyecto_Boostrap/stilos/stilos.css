@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 3.5vw;
+}
+
+/* Medias query para cambiar tamaño de la imagen de fondo y colores de fondo*/
+@media screen and (min-width: 576px) {
+    .fondo1 {
+        background-size: 993px;
+    }
+
+    html {
+        font-size: 1.5vw;
+    }
+    h2{
+        font-size: 1.8em;
+    }
+}  
+
+@media screen and (min-width: 992px) {
+
+    .fondo1 {
+        background-size: 2000px 1000px;
+    } 
+
+    html {
+        font-size: 1vw;
+    }
+
+    .bg-oscuro1 {
+        background-color: transparent;
+    }
+    .bg-footer1 {
+        background-color: rgb(236, 236, 236);
+    }
+
+    
+}
+
+@media screen and (max-width: 992px) {
+    .bg-oscuro1 {
+    background-color: rgba(34, 33, 33, 0.575);
+    }
+}
+ /*--------------------------------------------------------*/
+
+.fondo1 {
+    background-image: url("../img/fondo_escritorio_bootstrap.jpg");
+    background-repeat: no-repeat;
+}
+
+/* COLORES DE FONDO PERSONALIZADOS*/
+.bg-oscuro {
+    background-color: rgba(34, 33, 33, 0.733);
+}
+
+
+
+.bg-claro {
+    background-color: rgba(255, 255, 255, 0.945);
+}
+
+.text-pink {
+    color:rgb(253, 33, 118);
+}
+.bg-pink {
+    background-color:rgb(253, 33, 118);
+}
+
+.bg-footer {
+    background-color: rgba(236, 236, 236, 0.884);
+    color: rgb(92, 86, 86);
+}
+
+.icolor {
+    color:white;
+}
+
+.nav-item {
+    transition-duration: 0.4s;
+    border-radius: 2px;
+}
+.nav-item:hover {
+    background-color: rgb(180, 180, 180);
+}
