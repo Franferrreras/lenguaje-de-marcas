@@ -1,0 +1,13 @@
+$dark-theme: true;
+$background-color: #c4bdbd;
+$color: #1f1e1e;
+
+$body-background: #FFF;
+
+@if $dark-theme {
+    $background-color: #272626;
+    $color: #c4bdbd;
+}
+
+
+$lista-colores: rgb(153, 36, 36),rgb(72, 204, 72),rgb(255, 168, 6),rgb(93, 93, 170);

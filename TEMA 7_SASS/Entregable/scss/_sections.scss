@@ -1,0 +1,20 @@
+.section {
+    .section__list-item {
+
+        margin: 2rem auto;
+        overflow-y: auto;
+        .left {
+            float: left;
+            width: 50%;
+        }
+
+        .right {
+            float: right;
+            width: 50%;
+        }
+
+        .name {
+            font-weight: bold;
+        }
+    }
+}

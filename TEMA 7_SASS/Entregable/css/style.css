@@ -1,0 +1,60 @@
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFF;
+}
+
+.container {
+  margin: 10px auto;
+  width: 80%;
+  color: #c4bdbd;
+  background-color: #272626;
+  padding: 2rem;
+}
+
+.section-title-1 {
+  color: #992424;
+  margin: 1rem 0;
+  border-bottom: 1px solid black;
+}
+
+.section-title-2 {
+  color: #48cc48;
+  margin: 1rem 0;
+  border-bottom: 1px solid black;
+}
+
+.section-title-3 {
+  color: #ffa806;
+  margin: 1rem 0;
+  border-bottom: 1px solid black;
+}
+
+.full-name {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.section .section__list-item {
+  margin: 2rem auto;
+  overflow-y: auto;
+}
+.section .section__list-item .left {
+  float: left;
+  width: 50%;
+}
+.section .section__list-item .right {
+  float: right;
+  width: 50%;
+}
+.section .section__list-item .name {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */

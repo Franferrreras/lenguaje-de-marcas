@@ -1,0 +1,4 @@
+@use "sass:list";
+@function colorSectionTitle($index) {
+    @return list.nth($lista-colores,$index);
+};

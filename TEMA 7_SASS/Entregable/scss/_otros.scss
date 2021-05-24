@@ -1,0 +1,29 @@
+@include reset();
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $body-background;
+}
+
+.container {
+    @include centrado(10,80);
+    color: $color;
+    background-color: $background-color;
+    padding: 2rem;
+}
+
+@for $i from 1 to 4 {
+    .section-title-#{$i} {
+        color: colorSectionTitle($i);
+        margin: 1rem 0;
+        border-bottom: 1px solid black;
+    }
+}
+
+.full-name {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
