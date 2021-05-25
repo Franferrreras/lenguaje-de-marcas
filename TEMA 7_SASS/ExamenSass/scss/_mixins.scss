@@ -1,0 +1,30 @@
+///Centra una caja o clase
+@mixin centrado($margen,$anchura) {
+    margin: #{$margen}+"px" auto;
+    width: #{$anchura}+"%";
+} 
+
+///Da posicion al sidebar
+@mixin placeSideBar($position,$width,$color,$background-color,$border-color) {
+    width: #{$width}+"%";
+    float: $position;
+    color: $color;
+    border: 1px solid;
+    top: 15%;
+    @if $position == "left" {
+        background-color: $background-color;
+        border-top-color: $border-color;
+        border-bottom-color: $border-color;
+        border-right-color: $border-color;
+        border-left-color: rgba(205, 92, 92, 0);
+    }
+    @else {
+        background-color: $background-color;
+        border-top-color: $border-color;
+        border-bottom-color: $border-color;
+        border-left-color: $border-color;
+        border-right-color: rgba(205, 92, 92, 0);
+    }
+   
+   
+}

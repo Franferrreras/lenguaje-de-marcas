@@ -1,4 +1,5 @@
 @use "sass:list";
+///Funcion recorrer lista
 @function colorSectionTitle($index) {
     @return list.nth($lista-colores,$index);
 };

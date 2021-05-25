@@ -1,0 +1,21 @@
+.sidebar {
+    position: absolute;
+    border-radius: 5px;
+    text-align: center;
+    img {
+        width: 30%;
+    }
+
+    nav {
+        ul {
+            li {
+                text-align: left;
+                list-style: none;
+            }
+        }
+    }
+    
+
+    @include placeSideBar(left,10,blue,white,green);
+
+}

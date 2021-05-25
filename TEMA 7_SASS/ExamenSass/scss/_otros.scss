@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $body-background;
+}
+
+.container {
+    @include centrado(20,70);
+    background-color: $background-color;
+    color: $color;
+}
+.font-xs {
+    font-size: 16;
+}
+
+.font-s {
+    font-size: 32px;
+}
+
+.font-m {
+    font-size: 48px;
+}
+
+.font-lg {
+    font-size: 64px;
+}
+
+.font-xl {
+    font-size: 80px;
+}
+

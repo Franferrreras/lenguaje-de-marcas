@@ -1,0 +1,18 @@
+$dark-theme: true;
+///Color de fondo
+$background-color: #d1d1d1;
+///Color texto
+$color: #2b2b2b;
+///Color de las transiciones
+$color-transition:#ff0000;
+///Color fondo body
+$body-background:#ffffff;
+
+@if $dark-theme {
+    $background-color:#2b2b2b;
+    $color:#d1d1d1;
+}
+
+$fuentes-letra:16,32,48,64,80;
+
+

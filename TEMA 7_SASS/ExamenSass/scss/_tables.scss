@@ -1,0 +1,30 @@
+.table {
+     @include centrado(20,50);
+    .header {
+        font-size: 2rem;
+        display: flex;
+        border-bottom: 1px solid black;
+
+        p {
+            margin-left: 20px;
+        }
+    }
+
+    .row {
+        font-size: 1rem;
+        cursor: pointer;
+        display: flex; 
+        transition-duration: 0.4s;
+        width: 85%;
+        :hover {
+            background-color: $color-transition; 
+            color: $color;
+        }
+    }
+    p {
+        text-align: left;
+        margin: 0px;
+        padding: 10px;
+        padding-right: 30%;
+    }
+}

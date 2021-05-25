@@ -14,7 +14,7 @@ body {
     background-color: $background-color;
     padding: 2rem;
 }
-
+///Bucle pone color a los section-title
 @for $i from 1 to 4 {
     .section-title-#{$i} {
         color: colorSectionTitle($i);
@@ -24,6 +24,7 @@ body {
 }
 
 .full-name {
+    color: rgb(245, 245, 245);
     font-size: 2rem;
     margin: 1rem 0;
 }
